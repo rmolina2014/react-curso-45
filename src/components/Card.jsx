@@ -1,11 +1,11 @@
 
 import "./Card.css";
 
-function Card(props) {
+function Card({title="titulo" ,descripcion="descr"}) {
   return (
     <div className='Card'>
-      <h2>{props.title}</h2>
-      <p>{props.descripcion}</p>
+      <h2>{title}</h2>
+      <p>{descripcion}</p>
     </div>
   )
 }
