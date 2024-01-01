@@ -1,6 +1,7 @@
 import './App.css';
 import Card from './components/Card';
 import vehicles from "./data/vehicles1.js";
+import Listar from "./components/Listar";
 
 function App() {
 
@@ -11,9 +12,12 @@ function App() {
   return (
     <>
       <div className="app">
-        <h1>hola react minuto 23 estados</h1>
+        <h3>hola react minuto 23 estados, actualizado para crud de develoteca</h3>
+        <p>https://www.youtube.com/watch?v=_DJBFUIT2Kg</p>
         <div className='container'>
           {vlista}
+          <p>parte del crud</p>
+          <Listar></Listar>
         </div>
       </div>
     </>
