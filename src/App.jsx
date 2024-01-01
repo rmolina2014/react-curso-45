@@ -2,6 +2,8 @@ import './App.css';
 import Card from './components/Card';
 import vehicles from "./data/vehicles1.js";
 import Listar from "./components/Listar";
+import Header from './components/Header.jsx';
+import Main from './components/Main.jsx';
 
 function App() {
 
@@ -11,15 +13,11 @@ function App() {
 
   return (
     <>
-      <div className="app">
-        <h3>hola react minuto 23 estados, actualizado para crud de develoteca</h3>
-        <p>https://www.youtube.com/watch?v=_DJBFUIT2Kg</p>
-        <div className='container'>
-          {vlista}
-          <p>parte del crud</p>
-          <Listar></Listar>
-        </div>
-      </div>
+     
+          <div className="wrapper">
+          <Header></Header>
+          <Main></Main>
+          </div>
     </>
   )
 }
